@@ -144,6 +144,42 @@
                 "file_name": "boundaries/metzingen.geojson",
                 "file_type": "geojson"
             }
+        },
+        {
+            "output": "freiburg.osm.pbf",
+            "output_format": "pbf",
+            "description": "Freiburg im Breisgau, r/62768",
+            "polygon": {
+                "file_name": "boundaries/freiburg.geojson",
+                "file_type": "geojson"
+            }
+        },
+        {
+            "output": "magdeburg.osm.pbf",
+            "output_format": "pbf",
+            "description": "Magdeburg, r/62481",
+            "polygon": {
+                "file_name": "boundaries/magdeburg.geojson",
+                "file_type": "geojson"
+            }
+        },
+        {
+            "output": "ulm.osm.pbf",
+            "output_format": "pbf",
+            "description": "Ulm, r/62495",
+            "polygon": {
+                "file_name": "boundaries/ulm.geojson",
+                "file_type": "geojson"
+            }
+        },
+        {
+            "output": "neu_ulm.osm.pbf",
+            "output_format": "pbf",
+            "description": "Neu-Ulm, r/941087",
+            "polygon": {
+                "file_name": "boundaries/neu_ulm.geojson",
+                "file_type": "geojson"
+            }
         }
     ]
 }
