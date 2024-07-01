@@ -180,6 +180,15 @@
                 "file_name": "boundaries/neu_ulm.geojson",
                 "file_type": "geojson"
             }
+        },
+        {
+            "output": "hattingen.osm.pbf",
+            "output_format": "pbf",
+            "description": "Hattingen, r/162828",
+            "polygon": {
+                "file_name": "boundaries/hattingen.geojson",
+                "file_type": "geojson"
+            }
         }
     ]
 }
