@@ -2226,7 +2226,7 @@ WHERE
   AND h.geog && b.geog
   AND h.admin_level = b.admin_level
   AND h.admin_level IN (4, 9, 10)
-  AND h.type IN ('primary', 'primary_link', 'secondary', 'secondary_link', 'tertiary', 'tertiary_link', 'residential', 'unclassified', 'living_street', 'pedestrian, road')
+  AND h.type IN ('primary', 'primary_link', 'secondary', 'secondary_link', 'tertiary', 'tertiary_link', 'residential', 'unclassified', 'living_street', 'pedestrian', 'road')
   AND b.name NOT IN ('Gosen', 'Lindenberg', 'Schönerlinde')
 GROUP BY
   b.name, b.admin_level, b.geog
